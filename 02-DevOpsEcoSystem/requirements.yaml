@@ -1,0 +1,5 @@
+dependencies:
+- name: artifactory
+  version: 0.0.1
+  repository: file://./charts/artifactory
+  condition: artifactory.enabled

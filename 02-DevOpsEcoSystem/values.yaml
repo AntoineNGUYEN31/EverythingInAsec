@@ -1,0 +1,13 @@
+#-------------
+# Artifactory
+#-------------
+artifactory:
+  enabled: true
+  image: docker.bintray.io/jfrog/artifactory-jcr
+  version: latest
+  uiPort: 8082
+  registryPort: 8081
+  persistence:
+    enabled: false
+    dataDir: /tmp
+
